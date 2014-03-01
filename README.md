@@ -1,4 +1,4 @@
-jquery.downboy
+[jQuery.downBoy](https://github.com/eustasy/jquery.downboy)
 ==============
 
-A jQuery library to push your footer to the bottom of your responsive dynamic height page.
+A small jQuery plugin to push your footer to the bottom of your responsive dynamic height page.
