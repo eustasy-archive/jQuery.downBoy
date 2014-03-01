@@ -1,3 +1,4 @@
+// jQuery.downBoy.auto 1.2
 function downBoy(footer) { // Define a new function
 	'use strict'; // Be strict
 	footer = footer || 'footer'; // Set $footer to Itself, OR footer
