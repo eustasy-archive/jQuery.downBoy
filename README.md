@@ -12,13 +12,13 @@ Run on `footer` element.
 
 Run on custom element, such as `#footer`.  
 ```
-<script src="jquery.downboy.auto.min.js"></script>
+<script src="jquery.downboy.min.js"></script>
 <script>
  	$(function() {
-	downBoy('#footer'); // Run on load
-	window.onresize = function() { // On Resize
-		downBoy('#footer'); // Run Again
-	};
-});
+		downBoy('#footer'); // Run on load
+		window.onresize = function() { // On Resize
+			downBoy('#footer'); // Run Again
+		};
+	});
 </script>
 ```
