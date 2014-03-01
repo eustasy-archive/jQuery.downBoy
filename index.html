@@ -1,0 +1,45 @@
+<!DocType html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>jQuery.downBoy</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="styles.css">
+		<!--[if lt IE 9]>
+			<script src="http://cdn.jsdelivr.net/g/modernizr,jquery@1.11.0"></script>
+		<![endif]-->
+		<!--[if IE 9]><!-->
+			<script src="http://cdn.jsdelivr.net/g/jquery"></script>
+		<!--<![endif]-->
+		<script>
+			$(function() {
+				function downBoy(footer) { // Define a new function
+					'use strict'; // Be strict
+					footer = footer || 'footer'; // Set $footer to Itself, OR footer
+					$(footer).css('position', '').css('bottom', ''); // Clear for measurement
+					if ( $(window).height() > $('body').height() ) { // Check if it's needed
+						$(footer).css('position', 'absolute').css('bottom', '0'); // Absolutely Position it
+					};
+				};
+				downBoy(); // Run on load
+				window.onresize = function() { // On Resize
+					downBoy(); // Run Again
+				};
+			});
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1>jQuery.downBoy</h1>
+		</header>
+		<section class="content">
+			<h2>Some Content</h2>
+			<p>But not quite enough.</p>
+			<p class="faded">Try resizing the window, it will always stay at the bottom.</p>
+		</section>
+		<footer>
+			<p>This is the footer. It should be absolutely positioned at the bottom of the page by <a href="https://github.com/eustasy/jquery.downboy">downBoy</a> unless it was already there.</p>
+			<p>You can download this from <a href="https://github.com/eustasy/jquery.downboy/releases">GitHub</a> or get it delivered by <a href="http://www.jsdelivr.com/">jsDelivr</a> (I highly recommend their multi-CDN file-combiner).</p>
+		</footer>
+	</body>
+</html>
