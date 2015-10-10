@@ -9,7 +9,7 @@
 			<script src="http://cdn.jsdelivr.net/g/modernizr,jquery@1.11.0"></script>
 		<![endif]-->
 		<!--[if IE 9]><!-->
-			<script src="http://cdn.jsdelivr.net/g/jquery"></script>
+			<script src="http://cdn.jsdelivr.net/g/jquery@2.1.4"></script>
 		<!--<![endif]-->
 		<script>
 			$(function() {
@@ -17,7 +17,7 @@
 					'use strict'; // Be strict
 					footer = footer || 'footer'; // Set $footer to Itself, OR footer
 					$(footer).css('position', '').css('bottom', ''); // Clear for measurement
-					if ( $(window).height() > $('body').height() ) { // Check if it's needed
+					if ( $(window).height() > $('html').height() ) { // Check if it's needed
 						$(footer).css('position', 'absolute').css('bottom', '0'); // Absolutely Position it
 					};
 				};
