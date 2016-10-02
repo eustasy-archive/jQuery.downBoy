@@ -3,29 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>jQuery.downBoy</title>
-		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/normalize,colors.css">
 		<link rel="stylesheet" href="styles.css">
-		<!--[if lt IE 9]>
-			<script src="https://cdn.jsdelivr.net/g/modernizr,jquery@1.11.0"></script>
-		<![endif]-->
-		<!--[if IE 9]><!-->
-			<script src="https://cdn.jsdelivr.net/g/jquery@2.1.4"></script>
-		<!--<![endif]-->
+		<script src="https://cdn.jsdelivr.net/g/jquery"></script>
+		<script src="jquery.downboy.js"></script>
 		<script>
-			$(function() {
-				function downBoy(footer) { // Define a new function
-					'use strict'; // Be strict
-					footer = footer || 'footer'; // Set $footer to Itself, OR footer
-					$(footer).css('position', '').css('bottom', ''); // Clear for measurement
-					if ( $(window).height() > $('body').height() ) { // Check if it's needed
-						$(footer).css('position', 'absolute').css('bottom', '0'); // Absolutely Position it
-					};
-				};
-				downBoy(); // Run on load
-				window.onresize = function() { // On Resize
-					downBoy(); // Run Again
-				};
-			});
+		    $(function() {
+			downBoy('#footer'); // Run on load
+			window.onresize = function() { // On Resize
+			    downBoy('#footer'); // Run Again
+			};
+		    });
 		</script>
 	</head>
 	<body>
