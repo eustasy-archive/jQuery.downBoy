@@ -1,4 +1,4 @@
-// jQuery.downBoy.auto 1.2
+// jQuery.downBoy.auto 1.3
 /*global $*/
 /* exported downBoy */
 function downBoy(footer) { // Define a new function
