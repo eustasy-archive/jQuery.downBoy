@@ -4,7 +4,7 @@ A small jQuery plugin to push your footer to the bottom of your responsive dynam
 
 [![Build Status](https://travis-ci.org/eustasy/jQuery.downBoy.svg?branch=master)](https://travis-ci.org/eustasy/jQuery.downBoy)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a8cbb7167985494e922bdea60193e74f)](https://www.codacy.com/app/lewisgoddard/jQuery.downBoy?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=eustasy/jQuery.downBoy&amp;utm_campaign=Badge_Grade)
-[![Code Climate](https://codeclimate.com/github/eustasy/jquery.downboy/badges/gpa.svg)](https://codeclimate.com/github/eustasy/jquery.downboy)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c16a4c5f30d7917f0931/maintainability)](https://codeclimate.com/github/eustasy/jquery.downboy/maintainability)
 [![Bountysource](https://www.bountysource.com/badge/tracker?tracker_id=482426)](https://www.bountysource.com/teams/eustasy/issues?tracker_ids=482426)
 [![jsDelivr](https://data.jsdelivr.com/v1/package/gh/eustasy/jQuery.downBoy/badge?style=rounded)](https://www.jsdelivr.com/package/gh/eustasy/jQuery.downBoy)
 
