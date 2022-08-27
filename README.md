@@ -4,6 +4,7 @@
 
 ###### A small jQuery plugin to push your footer to the bottom of your responsive dynamic height page.
 
+[![Normal](https://github.com/eustasy/jQuery.downBoy/actions/workflows/normal.yml/badge.svg)](https://github.com/eustasy/jQuery.downBoy/actions/workflows/normal.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c16a4c5f30d7917f0931/maintainability)](https://codeclimate.com/github/eustasy/jquery.downboy/maintainability)
 [![jsDelivr](https://data.jsdelivr.com/v1/package/gh/eustasy/jQuery.downBoy/badge?style=rounded)](https://www.jsdelivr.com/package/gh/eustasy/jQuery.downBoy)
 
