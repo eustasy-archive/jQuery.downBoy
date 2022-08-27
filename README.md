@@ -1,6 +1,8 @@
 # [jQuery.downBoy](https://github.com/eustasy/jquery.downboy)
 
-A small jQuery plugin to push your footer to the bottom of your responsive dynamic height page.
+#### Deprecated: You should probably be using [Flexbox](https://web.dev/learn/css/flexbox/) or [Grid](https://learncssgrid.com/) in CSS instead. 
+
+###### A small jQuery plugin to push your footer to the bottom of your responsive dynamic height page.
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/c16a4c5f30d7917f0931/maintainability)](https://codeclimate.com/github/eustasy/jquery.downboy/maintainability)
 [![jsDelivr](https://data.jsdelivr.com/v1/package/gh/eustasy/jQuery.downBoy/badge?style=rounded)](https://www.jsdelivr.com/package/gh/eustasy/jQuery.downBoy)
